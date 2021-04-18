@@ -1,0 +1,56 @@
+.card-img-top{
+  width: 170px;
+  height: 170px;
+  align-self: center
+}
+.card-price{
+  color: black;
+  font-weight: bold;
+  align-self: flex-end;
+}
+.btn{
+  width: 100%
+}
+
+.btn-list-buy{
+  padding: 0; margin: 0;
+  width: 27.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.list-obj{
+  display: grid; 
+  justify-items: end; 
+}
+
+.list-obj *{
+  margin: 0;
+  font-weight: bold;
+}
+
+.li-pay{
+  display: flex; 
+  list-style: none; 
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.list-group-item{
+  border-left: none;
+  border-right: none;
+  height: 80px; 
+  display: flex; 
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+.span-list{
+  display: flex; 
+  border: 1px solid gray; 
+  height: 20px; 
+  width: 80px
+}
